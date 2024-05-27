@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///Users/macc/Desktop/work/flutter-test/flutter_application_1/github/workflows/ci.yaml"
+  }
+}
