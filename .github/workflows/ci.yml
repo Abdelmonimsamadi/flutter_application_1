@@ -3,7 +3,7 @@ on:
     branches:
       - main
 
-name: "Build & Release"
+name: "Build & Release edit"
 jobs:
   build: 
     name: Build & Release
