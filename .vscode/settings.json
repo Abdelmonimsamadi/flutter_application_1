@@ -1,6 +1,8 @@
 {
   "yaml.schemas": {
-    "https://json.schemastore.org/github-workflow.json": "file:///Users/macc/Desktop/work/flutter-test/flutter_application_1/github/workflows/ci.yaml",
-    "https://json.schemastore.org/github-action.json": "file:///Users/macc/Desktop/work/flutter-test/flutter_application_1/.github/workflows/ci.yml"
+    "https://json.schemastore.org/github-workflow.json": [
+      "file:///Users/macc/Desktop/work/flutter-test/flutter_application_1/github/workflows/ci.yaml",
+      "file:///Users/macc/Desktop/work/flutter-test/flutter_application_1/.github/workflows/ci.yml"
+    ]
   }
 }
