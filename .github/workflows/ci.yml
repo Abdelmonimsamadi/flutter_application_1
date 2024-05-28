@@ -26,7 +26,7 @@ jobs:
          ln -s ../Runner.app
          cd ..
          zip -r app.ipa Payload
-     - run: flutter build apk --release --split-per-abi
+    #  - run: flutter build apk --release --split-per-abi
      - name: upload artifacts
        uses: ncipollo/release-action@v1
        with:
