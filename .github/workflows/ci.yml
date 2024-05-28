@@ -18,7 +18,6 @@ jobs:
         flutter-version: 3.19.0
      - run: flutter pub get
      - run: flutter test
-     - run: flutter build apk --release --split-per-abi
      - run: |
          flutter build ios --no-codesign
          cd build/ios/iphoneos
@@ -27,6 +26,7 @@ jobs:
          ln -s ../Runner.app
          cd ..
          zip -r app.ipa Payload
+     - run: flutter build apk --release --split-per-abi
      - name: upload artifacts
        uses: ncipollo/release-action@v1
        with:
